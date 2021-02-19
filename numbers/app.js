@@ -12,7 +12,7 @@ const isNotEqual = () => {
 /* --- And here --- */
 
 // check if number is less than 31, if it is call function isEqual. Otherwise call function isNotEqual
-if (number > 31) {
+if (number < 31) {
   isNotEqual();
 } else {
   isEqual();
